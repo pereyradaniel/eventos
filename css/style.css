@@ -1,0 +1,35 @@
+img{
+    width: 200px!important;
+    margin: auto;
+}
+
+#productos{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-between;
+align-items:initial;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.card-body .btn-estilo{
+    margin: 0;
+    display: block;
+    background-color: #F77E21;
+}
+
+.card-body .btn-estilo:hover{
+  
+    background-color: #FAC213;
+}
+
+.seleccion{
+    margin:30px 0 30px 120px;
+    width: 30%;
+}
+
+.carousel-item{
+    height: 30%!important;
+}
