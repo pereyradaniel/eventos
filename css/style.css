@@ -47,11 +47,21 @@ button, input, optgroup, select, textarea {
 .w-30 {
     width: 30%!important;
 }
+.d-md-block {
+    background-color: #9c196595;
+   
+}
 
-@media (min-width: 768px){
+@media (max-width: 768px){
 .d-md-block {
     background-color: #00000095;
     display: block!important;
     width: 50%;
     margin: auto;
-}}
+}
+.w-30 {
+    width: 50%!important;
+}
+
+}
+
