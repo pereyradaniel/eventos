@@ -10,4 +10,7 @@ stockProductos = [
     {id:6, producto:"Dulce de Leche", marca: "La Serenisima", categoria:"Lacteos", peso: 500, precio:400, stock:50, img:"./img/dulce-de-leche-la-serenisima-estilo-colonial-opt.jpg"},
     {id:7, producto:"Dulce de Leche", marca: "Vacalin", categoria:"Lacteos", peso: 500, precio:400, stock:50, img:"./img/dulce-de-leche-vacalin-sin-tacc-original-opt.jpg"},
     {id:8, producto:"Leche", marca: "La Serenisa", categoria:"Lacteos", peso: 500, precio:400, stock:50, img:"./img/leche-la-serenisima-descremada-opt.jpg"},
+    {id:9, producto:"Tomates", marca: "Noel", categoria:"Almacen", peso: 400, precio:120, stock:50, img:"./img/tomates perita-opt.jpg"},
+    {id:9, producto:"Harina", marca: "Cañuelas", categoria:"Almacen", peso: 1000, precio:120, stock:50, img:"./img/harina-canuelas-opt.jpg"},
+
 ]

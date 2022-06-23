@@ -4,10 +4,11 @@ img{
 }
 
 #productos{
-display: flex;
-flex-wrap: wrap;
-justify-content:space-between;
-align-items:initial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
 }
 
 .card{
@@ -27,9 +28,30 @@ align-items:initial;
 
 .seleccion{
     margin:30px 0 30px 120px;
-    width: 30%;
+    width: 70%;
+}
+.buscar{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 80%;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+button, input, optgroup, select, textarea {
+
+    margin: 20px!important;
+}
+.w-30 {
+    width: 30%!important;
 }
 
-.carousel-item{
-    height: 30%!important;
-}
+@media (min-width: 768px){
+.d-md-block {
+    background-color: #00000095;
+    display: block!important;
+    width: 50%;
+    margin: auto;
+}}

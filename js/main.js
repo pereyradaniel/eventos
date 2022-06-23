@@ -2,8 +2,9 @@ const carritoDeCompras = [];
 
 const contenedorProductos = document.getElementById("productos");
 const contenedorCarrito = document.getElementById("carrito");
-
 const selectCategoria = document.getElementById("selectCategoria");
+const buscar = document.getElementById("search");
+
 
 //Filtro de búsqueda
 selectCategoria.addEventListener("change", () => {
@@ -20,7 +21,6 @@ selectCategoria.addEventListener("change", () => {
 // Mostrar Productos
 
 mostrarProductos(stockProductos);
-
 function mostrarProductos(array) {
   contenedorProductos.innerHTML = "";
   array.forEach((el) => {
@@ -33,7 +33,7 @@ function mostrarProductos(array) {
             <h5 class="card-title">${el.producto}</h5>
             <h6>Precio $${el.precio}</h6>
             <p class="card-text">${el.marca}</p>
-            <a href="#" class="btn btn-light btn-estilo"><i class="fa-solid fa-cart-arrow-down"></i> Agregar al Carrito</a>
+            <a id="boton${el.id} "href="#" class="btn btn-light btn-estilo"><i class="fa-solid fa-cart-arrow-down"></i> Agregar al Carrito</a>
         </div>
     </div> `;
 
